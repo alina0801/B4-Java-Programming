@@ -37,7 +37,7 @@ public class AddElementInArr {
     }
 
     /*
-        TODO: HOME PRACTICE
+        HOME PRACTICE
             Implement the same code with fori loop
             Note: make the method name: addElemInArr2
      */
@@ -46,10 +46,12 @@ public class AddElementInArr {
     // I need to build a function / a code  (method) which adds couple elements into an array
     public static int [] addElemInArray (int [] arr, int ... arr2 ) {
 
-        int [] addedAr = Arrays.copyOf(arr, arr.length + arr2.length);  // {1, 2, 3, 4, 5,  _, _, _,.......}
+        int [] addedAr = Arrays.copyOf(arr, arr.length + arr2.length);
+        // {1, 2, 3, 4, 5,  _, _, _,.......}
 
 
-        for (int i = arr.length, j = 0; i < addedAr.length; i++, j++) {   // i < 9  --- >  i = 5, j = 0;  i < 9; i++, j++
+        for (int i = arr.length, j = 0; i < addedAr.length; i++, j++) {
+            // i < 9  --- >  i = 5, j = 0;  i < 9; i++, j++
             addedAr[i] = arr2[j];
         }
 
