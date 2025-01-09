@@ -23,7 +23,7 @@ public class Library {
 
 
         Book b1 = new Book();
-        //b1 object has access to 7 instance variables. - Has the access to its own class members and nothihg from child.
+        //b1 object has access to 7 instance variables. - Has the access to its own class members and nothing from child.
         //b1.authorName = "Ab Jerry";
         //b1.narrator;
         //b1.pages;
