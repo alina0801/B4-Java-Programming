@@ -12,7 +12,7 @@ public class GitCommands {
 
 
     * 8. git branch -d new_branch_name (will delete the branch, that you gave as the name of new_branch_name)
-    * 9. git commit -a -m "message"          - this command will create the commite for all the chagnes.
+    * 9. git commit -a -m "message"          - this co cmmand will create the commite for all the chagnes.
     * 10. git push origin new_branch_name     - this command will push the changes that you made on that brnach to remote
 
      */
