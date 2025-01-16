@@ -1,4 +1,4 @@
-package day38_b_polymorphism;
+package day38_b_polymorphism.animal;
 
 public class Forest {
     public static void main(String[] args) {

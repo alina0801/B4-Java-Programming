@@ -11,5 +11,7 @@ public class Shortcuts {
     // q                            - press in terminal to quit from :
     // shift 3 times                - soft-wrap
     // Opt(Alt)+Shift+Up(Down)      - moving lines around
+    // Cmd + Option + T             - select the code you want to wrap in a try-catch block.
+
 
 }
