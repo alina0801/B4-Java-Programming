@@ -21,8 +21,8 @@ public class FirstTry {
         try {
             System.out.println( str.charAt( index ) ); // StringIndexOutOfBoundsException
         } catch (Exception e) {
-            //System.out.println(e.getMessage());
-            //e.printStackTrace();
+            //System.out.println(e.getMessage()); -> return String
+            //e.printStackTrace();                -> void method
             System.out.println("Exception is caught");
         }
 

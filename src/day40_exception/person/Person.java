@@ -9,7 +9,7 @@ public class Person {
         return name;
     }
 
-    public void setName(String name) throws Exception {
+    public void setName (String name) throws Exception {
         //this.name = name;
         if (name.isBlank() || name.isEmpty()) {
             //System.out.println("Invalid name!");

@@ -27,7 +27,7 @@ public class ThirdTry {
         } catch (ArithmeticException e){
             e.printStackTrace();
         } finally {
-            // THis finally block will be executed NO MATTER if there was exception or there was NO exception
+            // This finally block will be executed NO MATTER, if there was exception or there was NO exception
             System.out.println("FINALLY BLOCK");
             scanner.close();
         }
