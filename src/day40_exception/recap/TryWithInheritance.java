@@ -16,8 +16,8 @@ public class TryWithInheritance {
              *
              * POLYMORPHISM -> possible references:
              * 1. Itself: ArrayIndexOutOfBoundsException = new ArrayIndexOutOfBoundsException;
-             * 2. IndexOutOfBoundsException = new ArrayIndexOutOfBoundsException;
-             * 3. PARENT: RuntimeException = new ArrayIndexOutOfBoundsException;
+             * 2. PARENT: IndexOutOfBoundsException = new ArrayIndexOutOfBoundsException;
+             * 3. GRAND PARENT: RuntimeException = new ArrayIndexOutOfBoundsException;
              * 4. Exception e = new ArrayIndexOutOfBoundsException;
              * 5. Throwable e = = new ArrayIndexOutOfBoundsException;
              */

@@ -55,7 +55,7 @@ class DealerShip {
 
 class LocationA extends DealerShip {
 
-    //@Override - even-though it ahs SAME METHOD SIGNATURE - we canNOT override static method
+    //@Override - even-though it has SAME METHOD SIGNATURE - we canNOT override static method
     public static Car getCar (int option) {
         if (option == 1) {
             return new Toyota();
