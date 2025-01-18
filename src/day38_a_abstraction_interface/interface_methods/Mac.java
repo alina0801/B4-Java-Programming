@@ -1,4 +1,4 @@
-package day38_a_abstraction_interface.interface_mehtods;
+package day38_a_abstraction_interface.interface_methods;
 
 public interface Mac {
     // everything in interface is -> 'public'
