@@ -53,7 +53,7 @@ public class AllMapObjects {
         // map4.put("test", null); // null is NOT OK as VALUE either
         // map4.put("check", null); // null is NOT OK as VALUE either
         System.out.println(map4);
-        // LinkedHashMap: NO DUPLICATE KEY - Random Order - null as KEY is NOT allowed - null as VALUE is NOT allowed - it is SYNCHRONIZED (Thread-safe)
+        // HashTableMap: NO DUPLICATE KEY - Random Order - null as KEY is NOT allowed - null as VALUE is NOT allowed - it is SYNCHRONIZED (Thread-safe)
 
 
     }
