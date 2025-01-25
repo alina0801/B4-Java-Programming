@@ -19,7 +19,6 @@ public class AllMapObjects {
         // HashMap: NO DUPLICATE KEY - DUPLICATE VALUES OK - Random Order - null as KEY is allowed - null as VALUE is allowed
 
 
-
         Map<String, String> map2 = new LinkedHashMap<>();
         map2.put("feyruz", "Java");
         map2.put("nadir", "Selenium");
@@ -49,8 +48,8 @@ public class AllMapObjects {
         map4.put("nadir", "Selenium");
         map4.put("Diana", "MentorGroup2");
         map4.put("Iryna", "MentorGroup1");
-        // map4.put(null, "GeneralText"); // null is NOT OK as KEY
-        // map4.put("test", null); // null is NOT OK as VALUE either
+        //  map4.put(null, "GeneralText"); // null is NOT OK as KEY
+        //  map4.put("test", null); // null is NOT OK as VALUE either
         // map4.put("check", null); // null is NOT OK as VALUE either
         System.out.println(map4);
         // HashTableMap: NO DUPLICATE KEY - Random Order - null as KEY is NOT allowed - null as VALUE is NOT allowed - it is SYNCHRONIZED (Thread-safe)
