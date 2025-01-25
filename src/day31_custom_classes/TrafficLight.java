@@ -25,8 +25,4 @@ public class TrafficLight {
     public TrafficLight (String color1) {
         color = color1;
     }
-
-
-
-
 }

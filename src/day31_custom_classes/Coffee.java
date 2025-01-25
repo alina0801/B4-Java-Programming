@@ -30,7 +30,11 @@ public class Coffee {
 
     public void drink () {
         System.out.println( "Drinking " + type + " type of coffee" );
-    }
+
+        // *** Here if I will provide the .toLowerCase I need to be cautious, because if I won't have the value for the "type" variable it will give me the NULL POINTER EXCEPTION , because by default its null (empty) and im trying to convert that to String ->> which is impossible
+
+        // System.out.println( "Drinking " + type.toLowerCase() + " type of coffee" );
+        }
 
     public void refill (double addOz ) {
         System.out.println("Refilling " + addOz + " oz.");

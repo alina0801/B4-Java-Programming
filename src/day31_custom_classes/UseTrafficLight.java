@@ -4,8 +4,8 @@ package day31_custom_classes;
 public class UseTrafficLight {
     public static void main(String[] args) {
 
-        // Object Reference =  Actual Object
-        //                      constructor
+        // Object Reference =  Actual Object -> (new)
+        //                           constructor
         //TrafficLight obj1 = new TrafficLight();
         //System.out.println(obj1.color);
 

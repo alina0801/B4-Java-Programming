@@ -1,13 +1,17 @@
 package shortcuts;
 
 public class Shortcuts {
+// MAC
+    // Command + A                  - to select everything
+    // Command + opt + l            - format the code
+    // Command + shift + opt + l    - reformat the code
+    // Hold Command                 -> see the links
+    // Command Shift F              - find the certain class
+    // 1 tab - \t                   - >>> indentation
+    // q                            - press in terminal to quit from :
+    // shift 3 times                - soft-wrap
+    // Opt(Alt)+Shift+Up(Down)      - moving lines around
+    // Cmd + Option + T             - select the code you want to wrap in a try-catch block.
 
-    // Command + A to select everything
-    // Command + opt + l = format the code
-    // Command + shift + opt + l = reformat the code
-    // Hold Command -> see the links
-    // Command Shift F - find the certain class
-    // 1 tab - \t - >>> indentation
-    // q - press in terminal to quit from :
+
 }
-    // @feyruz_loopcamp what is shortcut how do you hold and move the line across your code
